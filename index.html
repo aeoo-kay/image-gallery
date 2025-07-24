@@ -1,42 +1,18 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>이미지 갤러리</title>
   <style>
-    body {
-      font-family: sans-serif;
-      padding: 2rem;
-      background: #f9f9f9;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-    }
-    .gallery img {
-      width: 160px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
+    body { font-family: sans-serif; background: #f8f8f8; padding: 20px; }
+    h1 { text-align: center; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px; }
+    .gallery img { max-width: 200px; height: auto; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); }
   </style>
 </head>
 <body>
-  <h1>나만의 이미지 갤러리</h1>
+  <h1>👀 업로드된 이미지 모음</h1>
   <div class="gallery">
-    <!-- 이미지 리스트 시작 -->
-
-    <!-- [1차 이미지 목록] -->
     <img src="images/희스타님.png" alt="희스타님">
     <img src="images/홍버즈님.png" alt="홍버즈님">
     <img src="images/호마이갓님.png" alt="호마이갓님">
@@ -69,8 +45,6 @@
     <img src="images/정욱님.png" alt="정욱님">
     <img src="images/상혁님.png" alt="상혁님">
     <img src="images/정민님.png" alt="정민님">
-
-    <!-- [2차 이미지 목록] -->
     <img src="images/강다인님.jpg" alt="강다인님">
     <img src="images/경리님.png" alt="경리님">
     <img src="images/고웅호님.png" alt="고웅호님">
@@ -110,8 +84,6 @@
     <img src="images/성지인님.png" alt="성지인님">
     <img src="images/소민님_.png" alt="소민님_">
     <img src="images/소영님.png" alt="소영님">
-
-    <!-- [3차 이미지 목록] -->
     <img src="images/소풍족님.png" alt="소풍족님">
     <img src="images/솔아님.png" alt="솔아님">
     <img src="images/수미님.png" alt="수미님">
@@ -141,8 +113,6 @@
     <img src="images/장이나님.png" alt="장이나님">
     <img src="images/하바다님.png" alt="하바다님">
     <img src="images/한나님.png" alt="한나님">
-
-    <!-- 이미지 리스트 끝 -->
   </div>
 </body>
 </html>
